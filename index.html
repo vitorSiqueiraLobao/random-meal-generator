@@ -1,0 +1,35 @@
+<html>
+   <head>
+      <title>Random Meal Generator</title>
+      <script src="jquery-3.4.1.js"></script>
+      <script src="index.js" >pesquisa()</script>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+   </head>
+   <body onload="pesquisa()">
+      
+      <form>
+         <input onclick="gera()" type="button" value="GET MEAL">
+      </form>
+      
+
+      <h1 id="recipeName"></h1>
+      
+
+      <div id="main">
+         <div id="photo">
+            <img id="image">    
+            <p id="category"></p>
+            <p id="area"></p>
+         </div>
+         <p id="instructions"></p>   
+         <ul id="ingredients"></ul>
+         <iframe id="video"></iframe>
+     </div>
+      
+      
+      
+
+
+   </body>
+</html>
